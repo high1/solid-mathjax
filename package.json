@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "solid-mathjax",
+  "version": "1.0.0",
+  "keywords": [],
+  "description": "solid mathjax",
+  "devDependencies": {
+    "@mdx-js/rollup": "^2.1.1",
+    "rehype-mathjax": "^4.0.2",
+    "remark-math": "^5.1.1",
+    "solid-jsx": "^0.9.0",
+    "typescript": "^4.7.3",
+    "unocss": "^0.38.2",
+    "vite": "^2.9.12",
+    "vite-plugin-solid": "^2.2.6",
+    "vite-tsconfig-paths": "^3.5.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite"
+  },
+  "packageManager": "pnpm@7.2.1",
+  "dependencies": {
+    "solid-js": "^1.4.4"
+  }
+}
